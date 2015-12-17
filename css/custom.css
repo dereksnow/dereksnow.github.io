@@ -69,6 +69,10 @@ a {
 a:hover {
 	color: #0FA0CE;
 }
+
+a:hover, a.hover {
+text-decoration: none;
+}
 /* -----Unordered Lists -------------------------- */
 
 ul {
