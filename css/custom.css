@@ -69,17 +69,15 @@ a {
 a:hover {
 	color: #0FA0CE;
 }
-
-a:hover, a.hover {
-text-decoration: none;
+a:hover,
+a.hover {
+	text-decoration: none;
 }
-/* -----Unordered Lists -------------------------- */
-
-ul {
+/ -----Unordered Lists -------------------------- */ ul {
 	list-style-type: none;
 	padding-left: 10px;
 }
-/* -----Header ----------------------------------- */
+/* -----Heade ----------------------------------- */
 
 .navbar {
 	background: #644D52;
