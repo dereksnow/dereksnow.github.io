@@ -74,8 +74,19 @@ a:hover {
 
 ul {
 	list-style-type: none;
-	margin-top: -20px;
 	padding-left: 10px;
+}
+
+/* -----Header ----------------------------------- */
+.navbar {
+	background: #644D52;
+	margin-bottom: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FF974F;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #65B171;
 }
 /* -----Header ----------------------------------- */
 
@@ -113,7 +124,9 @@ ul {
 	margin-left: 10px;
 }
 /*---- Carousel ------------------------------- */
-
+.carousel {
+	margin: 30px auto;
+}
 .carousel-control.left,
 .carousel-control.right {
 	background-image: none;
@@ -121,11 +134,8 @@ ul {
 .carousel-custom-prev,
 .carousel-custom-next {
 	margin: auto 10px;
+	font-size: 3rem;
 }
-.img-scale--persona:hover {
-	-webkit-transform: scale(1.5);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.5);
-}
+.anchor-slide-to:hover {
+cursor: pointer;
+}	
