@@ -29,7 +29,6 @@ h6 {
 	margin-top: 0;
 	margin-bottom: 2rem;
 	font-weight: 300;
-	/* font-family: 'Alegreya SC', Georgia, "Times New Roman", Times, serif; */
 }
 h1 {
 	font-size: 4.0rem;
@@ -76,25 +75,57 @@ ul {
 	list-style-type: none;
 	padding-left: 10px;
 }
-
 /* -----Header ----------------------------------- */
+
 .navbar {
 	background: #644D52;
 	margin-bottom: 30px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #FF974F;
+	color: #FF974F;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #65B171;
+	color: #65B171;
 }
 /* -----Header ----------------------------------- */
 
 .Header-intro {
-	border-top: 2px solid #e6e6e6;
-	border-left: 2px solid #e6e6e6;
+	font-family: 'Alegreya SC', Georgia, "Times New Roman", Times, serif;
+}
+.Header-intro a {
+	text-decoration: none;
+}
+.Header-intro .fa {
+	padding: 10px;
+}
+.Header--accent1 {
+	color: #E6E6E6;
+}
+.Header--accent2 {
+	color: #65B171;
+}
+.Header--accent3 {
+	color: #F77A52;
+}
+.Header--accent4 {
+	color: #FF974F;
+}
+a:hover .Header--accent1 {
+	color: #F5F5F5;
+}
+a:hover .Header--accent2 {
+	color: #7BBC85;
+}
+a:hover .Header--accent3 {
+	color: #F89372;
+}
+a:hover .Header--accent4 {
+	color: #FFB27A;
+}
+.Header-intro {
+	/* border: 2px solid #e6e6e6; */
+	/* border-left: 2px solid #e6e6e6; */
 	margin-top: 20%;
-	padding-left: 30px;
 	padding-top: 30px;
 }
 .Header-intro-title {
@@ -124,6 +155,7 @@ ul {
 	margin-left: 10px;
 }
 /*---- Carousel ------------------------------- */
+
 .carousel {
 	margin: 30px auto;
 }
@@ -137,5 +169,5 @@ ul {
 	font-size: 3rem;
 }
 .anchor-slide-to:hover {
-cursor: pointer;
-}	
+	cursor: pointer;
+}
