@@ -89,6 +89,17 @@ a.hover {
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #65B171;
 }
+@media (max-width: 767px) {
+	.navbar-nav .nav-item {
+		float: none;
+	}
+	.navbar-nav .nav-item+.nav-item {
+		margin-left: 0;
+	}
+	.navbar-nav .nav-link+.nav-link {
+		margin-left: 0;
+	}
+}
 /* -----Header ----------------------------------- */
 
 .Header-intro {
